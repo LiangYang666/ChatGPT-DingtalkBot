@@ -8,9 +8,8 @@
 > 3. 创建好api_key, 进入[OpenAI链接](https://platform.openai.com/),右上角点击，进入页面设置  
 ![image](https://user-images.githubusercontent.com/38237931/222461544-260ef350-2d05-486d-bf36-d078873b0f7a.png)
 
-## 机器人创建及配置
-
-## 使用方法
+## 机器人创建及配置 待编辑
+## 使用方法（待完善）
 1. 执行`pip install openai` `pip install flask`等安装必要包，python版本需要3.7.1及以上才可安装到最新版openai
 2. 打开`main.py`文件
 3. 将`openai.api_key`填写为自己的api key，将`app_secret`填写为机器人的
