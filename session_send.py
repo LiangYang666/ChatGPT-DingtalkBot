@@ -10,8 +10,8 @@ import os
 import threading
 from collections import deque
 
-os.environ['HTTP_PROXY'] = 'http://127.0.0.1:7880'
-os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:7880'
+os.environ['HTTP_PROXY'] = 'http://127.0.0.1:7890'
+os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:7890'
 
 openai.api_key = ""
 app_secret = ""
@@ -19,8 +19,6 @@ app_secret = ""
 
 all_chat_dict = LRUCache(20)
 lock = threading.Lock()
-
-# 定义线程安全的队列
 
 
 def get_chat_response(chat_info, message):
